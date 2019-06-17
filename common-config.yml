@@ -17,7 +17,6 @@ mybatis:
   type-aliases-package: com.springboot.entity   #设置实体类的位置
   configuration:
     map-underscore-to-camel-case: true          #开启驼峰命名规则
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #设置MySQL的显示语句
 
 pagehelper:
   helper-dialect: mysql                         #设置数据库
